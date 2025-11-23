@@ -4,3 +4,9 @@ Built with Next.js , TalwindCSS , and Supabase
 [The Wild Oasis - Hotel Customer Application]()
 
 ### Feature Categories:
+
+- About 
+- Authentications
+- Profile
+- Reservations
+- Cabins
