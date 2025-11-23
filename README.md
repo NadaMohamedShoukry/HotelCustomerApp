@@ -22,3 +22,10 @@ Built with Next.js , TalwindCSS , and Supabase
 - Reservation List /account/reservations
 - Edit Reservations /account/reservations/edit
 - Update Profile /account/profile
+
+### Technology Decisions:
+
+- Framework: Next.js
+- Styling: TailwindCSS
+- Global UI State Management: ContextAPI
+- DB / API: Supabase
