@@ -4,7 +4,7 @@ import Link from "next/link";
 import background from "@/public/bg.png";
 export default function Home() {
   return (
-    <main className="mt-24">
+    <main className="relative mt-24 min-h-[calc(100vh-6rem)]">
       {/* first : it will prefetch all the routes that are linked on a
       certain page (This only works in production not in development)
       each page we visit in the browser will be cached in the browser */}
