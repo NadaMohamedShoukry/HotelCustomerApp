@@ -4,7 +4,7 @@ import Link from "next/link";
 import background from "@/public/bg.png";
 export default function Home() {
   return (
-    <main className="relative mt-24 min-h-[calc(100vh-6rem)]">
+    <main className="mt-24 ">
       {/* first : it will prefetch all the routes that are linked on a
       certain page (This only works in production not in development)
       each page we visit in the browser will be cached in the browser */}
@@ -19,7 +19,7 @@ export default function Home() {
       />
 
       <div className="relative z-10 text-center">
-        <h1 className="text-8xl text-primary-50 mb-10 tracking-tight font-normal">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl text-primary-50 mb-10 tracking-tight font-normal">
           Welcome to paradise.
         </h1>
         <Link
